@@ -38,3 +38,15 @@ out/
 
 ### Kotlin ###
 .kotlin
+
+### Local configuration and secrets ###
+.env
+.env.*
+!.env.example
+/deploy/deploy.env
+/deploy/secrets/
+/deploy/backups/
+
+### Local historical context ###
+/KAMERZING-CHAT.md
+/KAMERZING-CONTEXT.md
