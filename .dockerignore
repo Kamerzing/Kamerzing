@@ -1,0 +1,11 @@
+.git/
+.github/
+.gradle/
+.idea/
+.env*
+deploy/secrets/
+deploy/backups/
+build/*
+!build/libs/
+build/libs/*
+!build/libs/payment-core-0.1.0.jar
